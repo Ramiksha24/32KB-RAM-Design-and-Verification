@@ -14,9 +14,9 @@ This project implements a complete **32KB RAM (32768 × 8-bit)** and validates i
 
 ---
 
-## 🏗️ Architecture Variants
+## Architecture Variants
 
-### 🔹 LFSR-Based (Internal Self-Test)
+### LFSR-Based (Internal Self-Test)
 
 - Uses **16-bit LFSR** to generate pseudo-random data  
 - Writes data to:
@@ -31,7 +31,7 @@ This project implements a complete **32KB RAM (32768 × 8-bit)** and validates i
 
 ---
 
-### 🔹 UART-Based (External Interface)
+### UART-Based (External Interface)
 
 - Data sent from **PC → FPGA via UART**  
 - FPGA writes incoming data into RAM  
